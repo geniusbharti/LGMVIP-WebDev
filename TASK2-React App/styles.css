@@ -1,0 +1,52 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 4rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}
+
+h2{
+    margin: 1rem;
+}
+
+.grid{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 10px 50px;
+}
+
+.card{
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: cornsilk;
+    border-radius: 10%;
+}
+.card:hover{
+    background-color: #B8DFD8;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+img{
+    border-radius: 100%;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
